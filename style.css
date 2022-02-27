@@ -1,0 +1,120 @@
+    .container {
+        padding-bottom: 100px;
+    }
+    
+    .button-1 {
+        background-color: rgba(111, 53, 187, 0.664);
+        border-radius: 10px;
+        width: 150px;
+        height: 40px;
+        font-weight: bolder;
+    }
+    
+    .button-2 {
+        background-color: black;
+        border-radius: 10px;
+        width: 150px;
+        height: 40px;
+        font-weight: bolder;
+        color: beige;
+        /* margin-left: 130px; */
+        position: absolute;
+        bottom: 5px;
+        right: 33%;
+    }
+    
+    .back-1 {
+        background-image: url("hot-gadgets/bg-2.png");
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+    
+    .back-2 {
+        background-image: url("hot-gadgets/bg-1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .smartphone-price {
+        text-align: center;
+        font-weight: 300;
+    }
+    
+    .card-title {
+        text-align: center;
+    }
+    
+    .see-all {
+        color: gold;
+    }
+    
+    .card {
+        border-radius: 30px;
+        border: none;
+        box-shadow: 5px 5px 10px gray;
+        margin: 20px;
+    }
+    
+    .gradient-underline {
+        padding-bottom: 4px;
+        position: relative;
+        text-decoration: none;
+    }
+    
+    .gradient-underline::after {
+        background: #f00;
+        background: linear-gradient(to right, transparent 0%, #f00 50%, transparent 100%);
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 5px;
+        width: 100%;
+    }
+    
+    .try {
+        flex-direction: column;
+    }
+    
+    .try-1 {
+        border: none;
+        box-shadow: 5px 5px 10px gray;
+        border-radius: 10px;
+        width: 100%;
+    }
+    
+    .try-2 {
+        border: none;
+        box-shadow: 5px 5px 10px gray;
+        border-radius: 10px;
+        width: 100%;
+    }
+    
+    .try-3 {
+        border: none;
+        box-shadow: 5px 5px 10px gray;
+        border-radius: 10px;
+    }
+    
+    .top-categories {
+        text-align: center;
+    }
+    
+    .box {
+        border: none;
+        box-shadow: 5px 5px 10px grey;
+        border-radius: 20px;
+    }
+    
+    .box img {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .footer {
+        margin-top: 0;
+    }
+    
+    .col-sm-12 {
+        margin-bottom: 15px;
+    }
